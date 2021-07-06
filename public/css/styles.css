@@ -1,0 +1,422 @@
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: 'Roboto', 'sans-serif';
+        background-color: #ebebeb;
+    }
+    
+    h3 {
+        font-size: 24px;
+    }
+    
+    p {
+        font-size: 12px;
+    }
+    
+    .barra {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 2%;
+    }
+    
+    header {
+        background-color: #EAC926;
+    }
+    
+    .logo {
+        width: 50%;
+        padding: 10px;
+    }
+    
+    .search {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        padding: 2px;
+        font-size: 11px;
+    }
+    
+    .search .submit {
+        position: relative;
+        /* margin-left: 10px; */
+        /* background-color: white; */
+        /* border: 1px solid black; */
+        background-color: white;
+        text-align: center;
+        width: 15%;
+        left: -26px;
+        color: #666;
+    }
+    
+    .barra-buscar {
+        background-color: white;
+        padding: 2px;
+        /* border: 1px solid black; */
+        color: #666;
+        border-radius: 10px;
+        height: 50%;
+        padding-top: 5%;
+    }
+    
+    .cuotas {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    .cuotas i,
+    .cuotas p {
+        display: inline;
+        margin: 0;
+    }
+    
+    nav {
+        display: none;
+        font-size: 12px;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        margin-left: 20px;
+        padding: 0;
+    }
+    
+    nav ul a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    nav ul i {
+        margin-left: 0.2rem;
+    }
+    
+    .burger-menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .burger-menu i {
+        padding: 0.5rem;
+        background-color: #1259c3;
+        color: white;
+        display: inline-block;
+        margin-bottom: 1.5rem;
+        border-radius: 15%;
+    }
+    
+    .anuncio img {
+        width: 90%;
+    }
+    
+    .banner {
+        font-size: 0;
+        margin: 0;
+    }
+    
+    main {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    main section {
+        margin: 0 5%;
+    }
+    
+    main section h3 {
+        margin: 20px 0px;
+        color: #666;
+    }
+    
+    .anuncio {
+        margin: 10px 0px;
+        background-color: #fff;
+    }
+    
+    .anuncio img {
+        width: 100%;
+    }
+    
+    .descripcion {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: baseline;
+        border-top: 1px solid #ebebeb;
+        position: relative;
+        padding: 15px;
+    }
+    
+    .descripcion p {
+        font-size: 16px;
+        font-weight: normal;
+    }
+    
+    .descripcion h4 {
+        display: none;
+        color: #666;
+        margin-top: 20px;
+    }
+    
+    .descripcion:hover>h4 {
+        display: block;
+    }
+    
+    .anuncio:hover {
+        box-shadow: 10px 5px 5px black;
+    }
+    
+    .price {
+        font-size: 18px;
+        width: 30%;
+    }
+    
+    .discount {
+        width: 70%;
+    }
+    
+    .discount {
+        font-size: 16px;
+        font-weight: normal;
+    }
+    
+    .discount {
+        color: #39b54a;
+    }
+    
+    .anuncio i {
+        display: block;
+        font-size: 16px;
+        padding: 5px;
+        width: 30px;
+        height: 30px;
+        border: 1px solid #39b54a;
+        background-color: #FFF;
+        border-radius: 50%;
+        position: absolute;
+        right: 20px;
+        top: -15px;
+        color: #39b54a;
+    }
+    /* Register */
+    
+    .datosUsuarios {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+    
+    .datosUsuarios input {
+        border: 0;
+        padding: 0.5rem;
+    }
+    
+    .datosUsuarios h4 {
+        padding-bottom: 1rem;
+    }
+    
+    #fecha {
+        color: gray;
+    }
+    
+    .tipoUsuario {
+        display: flex;
+        padding: 0.5rem;
+    }
+    
+    .tipoUsuario label {
+        margin: 0 1rem;
+    }
+    
+    .intereses {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .intereses div {
+        padding: 0.5rem 0;
+    }
+    
+    .contra {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    }
+    
+    .contra input {
+        border: 0;
+        padding: 0.5rem;
+        width: 60%;
+    }
+    
+    .botones {
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 0.5rem;
+    }
+    
+    .botones button {
+        background-color: #1259c3;
+        color: white;
+        border: 0;
+        padding: 3%;
+    }
+    /*login */
+    
+    .login {
+        padding: 20px;
+    }
+    
+    .enviar {
+        border: 0;
+        color: white;
+        background-color: #1259c3;
+        padding: 5px;
+        margin-top: 3px;
+        ;
+    }
+    
+    .enviar:hover {
+        background-color: #0022AA;
+    }
+    
+    .fa-truck {
+        transition: transform .7s;
+    }
+    
+    .fa-truck:hover {
+        transform: rotate(360deg);
+    }
+    
+    footer {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    footer section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    
+    footer section i {
+        color: #1259c3;
+        font-size: 2em;
+        margin-bottom: 0.2rem;
+    }
+    
+    footer section h3 {
+        margin: 0;
+        font-size: 16px;
+    }
+    
+    footer section p {
+        margin: 0;
+        font-size: 12px;
+        text-align: justify;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    
+    footer section h4 {
+        margin: 0;
+        font-size: 10px;
+        color: #666;
+    }
+    
+    @media (min-width: 361px) {
+        .descripcion h4 {
+            display: block;
+        }
+        .anuncio {
+            box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        }
+        .container-anuncios {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .container-anuncios .anuncio {
+            width: 45%;
+        }
+        .price,
+        .discount {
+            width: 50%;
+        }
+        .barra {
+            display: flex;
+            flex-wrap: nowrap;
+            padding: 2%;
+            align-content: space-between;
+            justify-content: space-around;
+            flex-direction: row;
+            align-items: center;
+        }
+        .logo {
+            width: 30%;
+        }
+        .cuotas {
+            width: auto;
+        }
+        .search {
+            width: auto;
+        }
+        .barra-buscar {
+            background-color: white;
+            padding: 2px;
+            border: 1px solid black;
+            color: #666;
+            border-radius: 0;
+        }
+        .search .submit {
+            margin-left: 10px;
+            border: 1px solid black;
+            text-align: center;
+            width: 8%;
+            left: 0;
+            color: black;
+        }
+        .burger-menu {
+            display: none;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+        }
+        nav ul {
+            display: flex;
+            margin: 5px;
+        }
+        nav ul:first-child {
+            margin-left: 25px;
+        }
+        nav ul:last-child {
+            margin-right: 25px;
+        }
+        nav ul li {
+            margin: 0 5px;
+            font-size: 11px;
+        }
+    }
+    
+    @media (min-width: 769px) {
+        main section div.container-anuncios .anuncio {
+            width: 22%;
+        }
+        .promo {
+            display: flex;
+        }
+        .promo i:hover {
+            color: #39b54a;
+        }
+    }

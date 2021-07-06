@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="static/css/styles.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="barra">
+            <div class="logo">
+                <img src="static/images/logo-mercado-liebre.svg" />
+            </div>
+
+            <div class="search">
+                <div class="barra-buscar ">Buscar productos, marcas</div>
+                <div class="submit "><i class="fas fa-search "></i></div>
+            </div>
+            <div class="cuotas">
+                <i class="fas fa-hand-holding-usd"></i>
+                <p>Compra en cuotas y tarjeta de credito</p>
+            </div>
+        </div>
+
+
+        <nav>
+            <ul>
+                <li><a href="/">Ofertas</a></li>
+                <li><a href="/">Tiendas Oficiales</a></li>
+                <li><a href="/">Vender</a></li>
+                <li><a href="/">Ayuda</a></li>
+            </ul>
+
+            <ul>
+                <li><a href="">Crea tu cuenta</a><i class="far fa-address-card"></i></li>
+                <li><a href="">Ingresá</a><i class="fas fa-sign-in-alt"></i></li>
+                <li><a href="">Mis Compras</a><i class="fas fa-shopping-basket"></i></li>
+            </ul>
+
+        </nav>
+        <div class="burger-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+
+
+    </header>
+    <section class="banner">
+        <img src="static/images/img-home-banner.jpg" alt="Banner" style="width: 100%;">
+    </section>
+    <main>
+        <form action="">
+            <div class="datosUsuarios">
+                <input type="text" placeholder="Nombre y Apellido">
+                <br/>
+                <input type="text" placeholder="Nombre de Usuario">
+                <br/>
+                <input type="email" placeholder="Email">
+                <br/>
+                <h4>Fecha de nacimiento</h4>
+                <input type="date" placeholder="dob" id="fecha">
+                <br/>
+                <input type="text" placeholder="Domicilio">
+                <br/>
+
+            </div>
+
+
+            <h4>Perfil del usuario</h4>
+
+            <div class="tipoUsuario">
+                <input type="radio" id="comprador" name="profile" value="comprador" checked>
+                <label for="comprador">Comprador</label>
+
+                <input type="radio" id="vendedor" name="profile" value="vendedor" checked>
+                <label for="vendedor">Vendedor</label>
+            </div>
+            <h4>Intereses</h4>
+            <div class="intereses">
+                <div>
+                    <input type="checkbox" id="electro" name="electro" value="electro">
+                    <label for="electro">Electro</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="vendedor" name="moda" value="moda">
+                    <label for="moda">moda</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="hogar" name="hogar" value="hogar">
+                    <label for="electro">Hogar</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="Jugueteria" name="moda" value="Jugueteria">
+                    <label for="Jugueteria">Juguetería</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="vidasana" name="vidasana" value="vidasana">
+                    <label for="vidasana">Vida sana</label>
+                </div>
+
+            </div>
+
+
+
+
+            <div class="contra">
+                <input type="password" id="password" name="password" placeholder="contraseña">
+                <br/>
+                <input type="password" id="passwordc" name="passwordc" placeholder="confirmar contraseña">
+                <br/>
+            </div>
+
+            <div class="botones">
+                <button>Enviar</button>
+                <button>Borrar</button>
+            </div>
+
+
+
+
+
+        </form>
+    </main>
+
+</body>
