@@ -368,6 +368,9 @@
         .cuotas {
             width: auto;
         }
+        .cuotas p {
+            font-size: 20px;
+        }
         .search {
             width: auto;
         }
@@ -377,6 +380,8 @@
             border: 1px solid black;
             color: #666;
             border-radius: 0;
+            width: 90%;
+            font-size: 20px;
         }
         .search .submit {
             margin-left: 10px;
@@ -385,6 +390,7 @@
             width: 8%;
             left: 0;
             color: black;
+            font-size: 20px;
         }
         .burger-menu {
             display: none;
@@ -396,6 +402,10 @@
         nav ul {
             display: flex;
             margin: 5px;
+        }
+        nav ul a,
+        i {
+            font-size: 20px;
         }
         nav ul:first-child {
             margin-left: 25px;
